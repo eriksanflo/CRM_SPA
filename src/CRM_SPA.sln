@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM_SPA.Main", "CRM_SPA.Main\CRM_SPA.Main.csproj", "{74E3C607-8B6B-41F8-800B-17285F12723E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRM_SPA.Main", "CRM_SPA.Main\CRM_SPA.Main.csproj", "{74E3C607-8B6B-41F8-800B-17285F12723E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{A52B77E3-394B-4D58-96DA-417018461317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM_SPA.Api", "CRM_SPA.Api\CRM_SPA.Api.csproj", "{0660BB52-F12D-4E65-8354-21B1BF837593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM_SPA.Api.Domain", "CRM_SPA.Api.Domain\CRM_SPA.Api.Domain.csproj", "{FECF5882-3C5F-4EDF-8BAE-DACDE92BE09D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM_SPA.Api.Handler", "CRM_SPA.Api.Handler\CRM_SPA.Api.Handler.csproj", "{97F9EEFF-A09A-4010-956F-69302ABB397A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,26 @@ Global
 		{74E3C607-8B6B-41F8-800B-17285F12723E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74E3C607-8B6B-41F8-800B-17285F12723E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74E3C607-8B6B-41F8-800B-17285F12723E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0660BB52-F12D-4E65-8354-21B1BF837593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0660BB52-F12D-4E65-8354-21B1BF837593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0660BB52-F12D-4E65-8354-21B1BF837593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0660BB52-F12D-4E65-8354-21B1BF837593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECF5882-3C5F-4EDF-8BAE-DACDE92BE09D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECF5882-3C5F-4EDF-8BAE-DACDE92BE09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECF5882-3C5F-4EDF-8BAE-DACDE92BE09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECF5882-3C5F-4EDF-8BAE-DACDE92BE09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F9EEFF-A09A-4010-956F-69302ABB397A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F9EEFF-A09A-4010-956F-69302ABB397A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F9EEFF-A09A-4010-956F-69302ABB397A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F9EEFF-A09A-4010-956F-69302ABB397A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0660BB52-F12D-4E65-8354-21B1BF837593} = {A52B77E3-394B-4D58-96DA-417018461317}
+		{FECF5882-3C5F-4EDF-8BAE-DACDE92BE09D} = {A52B77E3-394B-4D58-96DA-417018461317}
+		{97F9EEFF-A09A-4010-956F-69302ABB397A} = {A52B77E3-394B-4D58-96DA-417018461317}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8549A3B-D910-4653-BC0D-96FCE16433BC}
