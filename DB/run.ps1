@@ -13,7 +13,7 @@ $strMsg = '{0}{1} =>' -f [Environment]::NewLine, "Path"
 #Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 $ErrorActionPreference = "Inquire"
 $server = "ERIK-PC\SQLEXPRESS"
-$db = "Handyman"
+$db = "Crmspa"
 
 
 #Path of scripts
